@@ -58,3 +58,51 @@ Dev Tools
 	•	Virtual environment (venv)
 	•	JSON-based data storage (for hackathon phase)
 
+How This Can Be Improved
+
+ 1. Advanced Resume Parsing
+
+Replace basic parser with:
+	•	PyResparser
+	•	spaCy NER
+	•	Affinda API (enterprise-grade)
+
+ 2. Full AI Matching Engine
+	•	Use FAISS or Milvus vector DB
+	•	Train a custom matching model
+	•	Add weightage rules (skills, experience, recency, domain)
+
+ 3. Job Platform Integration
+	•	JSearch API (free alternative to Naukri API)
+	•	LinkedIn Web Scraper
+	•	Indeed / Glassdoor listing sync
+
+ 4. Automatic Interview Scheduling
+	•	Real Graph API integration
+	•	Calendar conflict detection
+	•	Multi-interviewer panels
+	•	Auto-email triggers
+
+ 5. End-to-End Recruiter Dashboard
+	•	Job postings
+	•	Candidate shortlist
+	•	Match score visualization
+	•	Status tracking
+
+ 6. Analytics Dashboard
+
+Using Power BI or Tableau to track:
+	•	Hiring efficiency
+	•	Match quality
+	•	Interview funnel drop-off
+	•	Time-to-hire
+
+ 7. Deployment
+	•	Host backend on Render / Azure / AWS
+	•	Host frontend on Streamlit Cloud / Vercel
+	•	Make it production-ready with:
+	•	JWT authentication
+	•	Database (Postgres)
+	•	CI/CD pipeline
+
+
